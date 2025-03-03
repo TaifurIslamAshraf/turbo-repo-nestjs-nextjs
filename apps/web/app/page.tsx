@@ -2,7 +2,6 @@ import { Button } from "@workspace/ui/components/button";
 
 export default function Page() {
   const name = "John";
-  const age = 20;
 
   return (
     <div className="flex items-center justify-center min-h-svh">
