@@ -9,8 +9,9 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "shadcn": "pnpm --filter @workspace/ui shadcn",
     "prepare": "husky",
-    "pre-commit": "node -v",
-    "typecheck": "turbo typecheck"
+    "typecheck": "turbo typecheck",
+    "pre-commit": "lint-staged",
+    "commitlint": "commitlint --edit"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.7.1",
