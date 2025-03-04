@@ -11,7 +11,7 @@
     "shadcn": "pnpm --filter @workspace/ui shadcn",
     "prepare": "husky",
     "typecheck": "turbo typecheck",
-    "pre-commit": "lint-staged",
+    "pre-commit": "lint-staged --debug",
     "commitlint": "commitlint --edit"
   },
   "devDependencies": {
