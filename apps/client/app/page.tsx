@@ -2,6 +2,7 @@ import { Button } from "@workspace/ui/components/button";
 
 export default function Page() {
   const name = "taifur";
+  const arr = [1, 2, 3, 4, 5];
 
   return (
     <div className="flex items-center justify-center min-h-svh">
